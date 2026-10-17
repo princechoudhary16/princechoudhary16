@@ -1,0 +1,36 @@
+username: princechoudhary16
+schedule_days: 15
+mode: dry-run
+
+max_featured: 6
+min_replacement_margin: 10
+min_confidence: 0.80
+
+weights:
+  technical_depth: 0.25
+  functionality: 0.20
+  relevance: 0.20
+  originality: 0.15
+  documentation: 0.10
+  development_evidence: 0.10
+
+professional_keywords:
+  - multi-agent
+  - ai
+  - ml
+  - machine-learning
+  - llm
+  - aws
+  - cloud
+  - rag
+  - nlp
+  - computer-vision
+  - scalable
+  - pipeline
+  - api
+  - typescript
+  - python
+
+ignored_repos: []
+
+notification_channel: actions-summary

@@ -1,0 +1,59 @@
+name: Portfolio Manager
+
+on:
+  schedule:
+    # Runs on the 1st and 16th of each month (~15-day interval)
+    - cron: '0 8 1,16 * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - approval
+          - automatic
+
+concurrency:
+  group: portfolio-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run portfolio review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PORTFOLIO_MODE: ${{ github.event.inputs.mode || 'dry-run' }}
+        run: python -m portfolio.manager
+
+      - name: Commit state changes
+        if: success()
+        run: |
+          git config user.name "Portfolio Manager"
+          git config user.email "noreply@github.com"
+          git add state/
+          git diff --cached --quiet || git commit -m "Update portfolio review state"
+          git push || true

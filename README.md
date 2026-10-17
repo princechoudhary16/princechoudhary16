@@ -10,6 +10,7 @@ I care about building things that actually work at scale, not just impressive de
 
 ## What I'm Working On
 
+<!-- PORTFOLIO:PROJECTS:START -->
 ### [Proxy Dating](https://github.com/princechoudhary16/proxy-dating) — Agents that date for you
 An AI agent reads your LinkedIn and Instagram, builds a psychological profile, then goes on multi-turn dates with other people's agents — speaking in your voice, probing dealbreakers, and ranking compatibility.
 
@@ -49,6 +50,8 @@ AI copilot that diagnoses vehicle faults using photos, service history, and tech
 Middleware that observes agent executions, classifies failures (transient infra, bad inputs, hallucinations), and performs automated recovery — retry, environment reset, prompt sanitization, model fallback.
 
 **Stack:** TypeScript, Node.js, Docker, OpenTelemetry
+
+<!-- PORTFOLIO:PROJECTS:END -->
 
 ---
 
