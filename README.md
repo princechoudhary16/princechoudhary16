@@ -49,3 +49,17 @@ AI copilot that diagnoses vehicle faults using photos, service history, and tech
 Middleware that observes agent executions, classifies failures (transient infra, bad inputs, hallucinations), and performs automated recovery — retry, environment reset, prompt sanitization, model fallback.
 
 **Stack:** TypeScript, Node.js, Docker, OpenTelemetry
+
+---
+
+## Technical Skills
+
+**Languages:** Python · JavaScript · TypeScript · C++ · SQL · Dart
+
+**AI & ML:** LLM APIs (Claude, Gemini) · Structured Outputs · Multi-Agent Systems · RAG · LightGBM · Computer Vision · NLP
+
+**Cloud & Infrastructure:** AWS (Bedrock, Lambda, S3, Rekognition, SNS, Amplify, CloudWatch) · Docker · GitHub Actions · Render
+
+**Frameworks:** Node.js · Express · Vue.js · React · Flask · LangChain
+
+**Data:** Qdrant · SQLite · FAISS · Pandas · NumPy
