@@ -1,8 +1,8 @@
 # Hey, I'm Prince 👋
 
-**Software Engineer** building multi-agent AI systems, scalable ML pipelines, and cloud-native applications.
+**MSc AI student at [NTU Singapore](https://www.ntu.edu.sg)** building multi-agent AI systems, scalable ML pipelines, and cloud-native applications.
 
-I design systems where autonomous agents collaborate, compete, and make decisions — from AI agents that date on your behalf to ML pipelines that resolve 12.5 million business entities on a laptop. Currently an SDE at [SmartBear](https://smartbear.com), AWS Solutions Architect, and VIT Vellore alum.
+I design systems where autonomous agents collaborate, compete, and make decisions — from AI agents that date on your behalf to ML pipelines that resolve 12.5 million business entities on a laptop. Previously an SDE at SmartBear, AWS Certified Solutions Architect, and VIT alum.
 
 I care about building things that actually work at scale, not just impressive demos.
 
@@ -77,10 +77,12 @@ Middleware that observes agent executions, classifies failures (transient infra,
 
 ## Background
 
-- **SDE at SmartBear** — working on developer tools
-- **AWS Solutions Architect** certified
-- **B.Tech from VIT Vellore** — one of India's top engineering institutions
-- Built production systems handling multi-agent orchestration, real-time streaming, and ML at scale
+- **MSc in Artificial Intelligence at NTU Singapore** — Director of Career and Academic at CCDS Graduate Students' Club
+- **Ex-SDE at SmartBear** — 2 years building developer tools (SDE → Associate Software Developer → Intern)
+- **Ex-Intern at Swiggy** — software engineering
+- **Amazon ML Summer School** alumni
+- **AWS Certified Solutions Architect** · **iSAQB CPSA-FL**
+- **B.Tech in Computer Science from VIT** (2020–2024)
 
 ---
 
