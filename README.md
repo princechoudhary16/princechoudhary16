@@ -71,7 +71,7 @@ Middleware that observes agent executions, classifies failures (transient infra,
 | Event | What I Built | Result |
 |---|---|---|
 | **Amazon ML Challenge 2026** | Entity resolution pipeline for 12.5M records | Top-500 |
-| **TikTok CodeJam** | Self-healing middleware for agent workflows | Hackathon submission |
+| **TikTok TechJam 2026** | Self-healing middleware for agent workflows | People's Choice Award |
 
 ---
 
