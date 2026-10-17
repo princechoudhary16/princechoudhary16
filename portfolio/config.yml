@@ -1,6 +1,6 @@
 username: princechoudhary16
 schedule_days: 15
-mode: dry-run
+mode: automatic
 
 max_featured: 6
 min_replacement_margin: 10
