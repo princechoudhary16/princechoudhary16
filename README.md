@@ -81,3 +81,13 @@ Middleware that observes agent executions, classifies failures (transient infra,
 - **AWS Solutions Architect** certified
 - **B.Tech from VIT Vellore** — one of India's top engineering institutions
 - Built production systems handling multi-agent orchestration, real-time streaming, and ML at scale
+
+---
+
+## Let's Connect
+
+I'm interested in multi-agent AI, ML systems, and building tools that make complex systems reliable.
+
+- **LinkedIn:** [prince-choudhary-b34407245](https://linkedin.com/in/prince-choudhary-b34407245)
+- **Email:** pc16oct@gmail.com
+- **GitHub:** You're already here — explore the repos below ↓
