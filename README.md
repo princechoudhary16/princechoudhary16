@@ -63,3 +63,21 @@ Middleware that observes agent executions, classifies failures (transient infra,
 **Frameworks:** Node.js · Express · Vue.js · React · Flask · LangChain
 
 **Data:** Qdrant · SQLite · FAISS · Pandas · NumPy
+
+---
+
+## Competitions & Hackathons
+
+| Event | What I Built | Result |
+|---|---|---|
+| **Amazon ML Challenge 2026** | Entity resolution pipeline for 12.5M records | Top-500 |
+| **TikTok CodeJam** | Self-healing middleware for agent workflows | Hackathon submission |
+
+---
+
+## Background
+
+- **SDE at SmartBear** — working on developer tools
+- **AWS Solutions Architect** certified
+- **B.Tech from VIT Vellore** — one of India's top engineering institutions
+- Built production systems handling multi-agent orchestration, real-time streaming, and ML at scale
