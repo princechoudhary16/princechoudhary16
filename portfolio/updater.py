@@ -26,33 +26,45 @@ def read_current_readme():
 
 
 def generate_project_section(featured_repos):
-    lines = []
-    for repo in featured_repos:
+    lines = ["", "<table>"]
+    for i, repo in enumerate(featured_repos):
+        if i % 2 == 0:
+            lines.append("<tr>")
+
         s = repo.get("snapshot", {})
         name = s.get("name", repo.get("name", ""))
         desc = s.get("description", "")
         lang = s.get("language", "")
         homepage = s.get("homepage", "")
         url = f"https://github.com/princechoudhary16/{name}"
-        stars = s.get("stars", 0)
 
-        lines.append(f"### [{name}]({url})")
+        lines.append('<td width="50%" valign="top">')
+        lines.append("")
+        lines.append(f"#### [{name}]({url})")
         if desc:
-            lines.append(f"{desc}")
+            lines.append(desc)
+        lines.append("")
         tech = []
         if lang:
             tech.append(lang)
         langs = s.get("languages", {})
-        for l in list(langs.keys())[:3]:
+        for l in list(langs.keys())[:4]:
             if l != lang and l not in tech:
                 tech.append(l)
         if tech:
-            lines.append(f"\n**Stack:** {' · '.join(tech)}")
+            lines.append(" ".join(f"`{t}`" for t in tech))
         if homepage:
             lines.append(f"\n[Live Demo →]({homepage})")
         lines.append("")
-        lines.append("---")
-        lines.append("")
+        lines.append("</td>")
+
+        if i % 2 == 1 or i == len(featured_repos) - 1:
+            if i % 2 == 0:
+                lines.append('<td width="50%"></td>')
+            lines.append("</tr>")
+
+    lines.append("</table>")
+    lines.append("")
     return "\n".join(lines)
 
 
