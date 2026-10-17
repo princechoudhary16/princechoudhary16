@@ -91,3 +91,23 @@ I'm interested in multi-agent AI, ML systems, and building tools that make compl
 - **LinkedIn:** [prince-choudhary-b34407245](https://linkedin.com/in/prince-choudhary-b34407245)
 - **Email:** pc16oct@gmail.com
 - **GitHub:** You're already here — explore the repos below ↓
+
+---
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=princechoudhary16&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=princechoudhary16&show_icons=true&theme=default&hide_border=true&count_private=true&hide_title=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=princechoudhary16&show_icons=true&theme=default&hide_border=true&count_private=true&hide_title=true" alt="GitHub Stats" />
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princechoudhary16&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princechoudhary16&layout=compact&theme=default&hide_border=true&langs_count=8" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princechoudhary16&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" />
+</picture>
+</p>
+
+<p align="center"><i>If a project interests you, open an issue or reach out — I'm always up for a good technical conversation.</i></p>
