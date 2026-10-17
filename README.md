@@ -35,3 +35,17 @@ Linking 12.5M noisy business records across three countries and eight Indic scri
 - Macro F0.5: **0.9777** (out-of-fold) / **0.968** (public leaderboard)
 
 **Stack:** Python, LightGBM, scikit-learn, pytest, GitHub Actions CI
+
+---
+
+### [AutoDiagnoseAI](https://github.com/princechoudhary16/AutoDiagnoseAI) — Multimodal Vehicle Diagnostics
+AI copilot that diagnoses vehicle faults using photos, service history, and technical manuals. Combines vision, RAG, and structured reasoning.
+
+**Stack:** Vue.js, TypeScript, Python, AWS Bedrock, Qdrant (vector DB), SQLite
+
+---
+
+### [TikTok CodeJam — Agent Launchpad](https://github.com/princechoudhary16/Tiktok_CodeJam_Hack_Track1) — Self-Healing Agent Middleware
+Middleware that observes agent executions, classifies failures (transient infra, bad inputs, hallucinations), and performs automated recovery — retry, environment reset, prompt sanitization, model fallback.
+
+**Stack:** TypeScript, Node.js, Docker, OpenTelemetry
