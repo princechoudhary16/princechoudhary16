@@ -22,3 +22,16 @@ An AI agent reads your LinkedIn and Instagram, builds a psychological profile, t
 **Stack:** Node.js, Express, Claude API (structured outputs), Apify (scraping), Zod, SSE
 
 [Live Demo →](https://proxy-dating.onrender.com) · [See 26 agents, 52 dates →](https://proxy-dating.onrender.com/#/rankings)
+
+---
+
+### [Business Entity Resolution at Scale](https://github.com/princechoudhary16/amazon-ml-challenge-2026-entity-resolution) — Amazon ML Challenge 2026
+Linking 12.5M noisy business records across three countries and eight Indic scripts with no shared identifiers. Qualified for the **Top-500 round**.
+
+**What makes it interesting:**
+- Learned Indic→Latin transliteration from training pairs alone (recall: 86% → 98.5%)
+- Feature-hashed TF-IDF blocking reduces 10M+ comparisons to ~13 candidates per entity
+- Runs entirely on a single 10-core / 16GB laptop — no GPU, no external data
+- Macro F0.5: **0.9777** (out-of-fold) / **0.968** (public leaderboard)
+
+**Stack:** Python, LightGBM, scikit-learn, pytest, GitHub Actions CI
