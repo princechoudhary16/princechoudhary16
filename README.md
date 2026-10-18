@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prince-choudhary-b34407245)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pc16oct@gmail.com)
 [![AWS SA](https://img.shields.io/badge/-AWS_Solutions_Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#-background)
-![Views](https://komarev.com/ghpvc/?username=princechoudhary16&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=princechoudhary16&style=for-the-badge&color=58a6ff)
 
 </div>
 
@@ -141,19 +141,6 @@ Middleware that observes agent executions, classifies failures (transient infra,
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princechoudhary16&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princechoudhary16&layout=compact&theme=default&hide_border=true&langs_count=8" />
   </picture>
-</div>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=princechoudhary16&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=princechoudhary16&theme=minimal&hide_border=true&area=true" width="100%"/>
-</picture>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=princechoudhary16&theme=algolia&no-frame=true&no-bg=true&column=7" />
 </div>
 
 <br/>
