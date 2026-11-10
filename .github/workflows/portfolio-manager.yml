@@ -46,7 +46,7 @@ jobs:
       - name: Run portfolio review
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PORTFOLIO_MODE: ${{ github.event.inputs.mode || 'dry-run' }}
+          PORTFOLIO_MODE: ${{ github.event.inputs.mode || '' }}
         run: python -m portfolio.manager
 
       - name: Commit state changes

@@ -40,7 +40,7 @@ def load_config(config_path=None):
             user_config = yaml.safe_load(f) or {}
         _deep_merge(config, user_config)
     config["github_token"] = os.environ.get("GITHUB_TOKEN", "")
-    config["mode"] = os.environ.get("PORTFOLIO_MODE", config["mode"])
+    config["mode"] = os.environ.get("PORTFOLIO_MODE") or config["mode"]
     return config
 
 
