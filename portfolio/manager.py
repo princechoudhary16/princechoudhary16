@@ -121,6 +121,8 @@ def _run_review(config, state, username, token, mode, errors):
             "release_count": snapshot["release_count"],
             "total_code_bytes": snapshot["total_code_bytes"],
             "language_count": snapshot["language_count"],
+            "readme_signals": snapshot.get("readme_signals", {}),
+            "structure": snapshot.get("structure", {}),
         })
 
     log.info("Repos with changes: %d", len(changed_repos))
@@ -139,7 +141,12 @@ def _run_review(config, state, username, token, mode, errors):
 
     log.info("Top 10 scores:")
     for r in scored[:10]:
-        log.info("  %s: %.1f (confidence: %.2f)", r["name"], r["score"]["total"], r["score"]["confidence"])
+        bd = r["score"]["breakdown"]
+        log.info(
+            "  %s: %.1f (confidence: %.2f) [impact=%.0f depth=%.0f rel=%.0f]",
+            r["name"], r["score"]["total"], r["score"]["confidence"],
+            bd.get("portfolio_impact", 0), bd.get("technical_depth", 0), bd.get("relevance", 0),
+        )
 
     # 4. Determine current featured
     current_pins = fetch_current_pins(username, token)

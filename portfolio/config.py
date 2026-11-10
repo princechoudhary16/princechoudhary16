@@ -10,12 +10,13 @@ DEFAULT_CONFIG = {
     "min_replacement_margin": 10,
     "min_confidence": 0.80,
     "weights": {
-        "technical_depth": 0.25,
-        "functionality": 0.20,
-        "relevance": 0.20,
-        "originality": 0.15,
+        "technical_depth": 0.20,
+        "functionality": 0.15,
+        "relevance": 0.15,
+        "originality": 0.10,
         "documentation": 0.10,
         "development_evidence": 0.10,
+        "portfolio_impact": 0.20,
     },
     "professional_keywords": [
         "multi-agent", "ai", "ml", "machine-learning", "llm",
