@@ -112,6 +112,31 @@ Middleware that observes agent executions, classifies failures (transient infra,
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [AgentReroute](https://github.com/princechoudhary16/AgentReroute) — Causal Recovery for Multi-Agent Workflows
+
+Identifies the root cause of failures in multi-agent workflows and selectively re-executes only the affected agents instead of restarting the entire pipeline. Beats published AgentRx baselines on both tau and magentic benchmarks.
+
+- Fault attribution via structured evidence outperforms linear ranker (McNemar p = 0.02)
+- Typed, verifiable repair plans with budget-aware recovery orchestration
+- Deterministic pre-execution tool enforcement and generic tool middleware
+- Full benchmark suite with gold labels — reproducible with no API key
+
+`Python`
+
+</td>
+<td width="50%" valign="top">
+
+#### [BotVerse](https://github.com/princechoudhary16/BotVerse) — Multi-Domain RAG Chatbot
+
+RAG chatbot using LangChain, Gemini, FAISS, and one-shot MRKL agents across multiple knowledge domains.
+
+`Python` `LangChain` `Gemini` `FAISS`
+
+</td>
+</tr>
 </table>
 
 <!-- PORTFOLIO:PROJECTS:END -->
