@@ -63,77 +63,56 @@ I care about building things that actually work at scale, not just impressive de
 <tr>
 <td width="50%" valign="top">
 
-#### [Proxy Dating](https://github.com/princechoudhary16/proxy-dating) — Agents That Date For You
+#### [amazon-ml-challenge-2026-entity-resolution](https://github.com/princechoudhary16/amazon-ml-challenge-2026-entity-resolution)
+Entity resolution at scale: 12.5M noisy records, 8 Indic scripts, Top-500 at Amazon ML Challenge 2026
 
-An AI agent reads your LinkedIn and Instagram, builds a psychological profile, then goes on multi-turn dates with other people's agents — speaking in your voice, probing dealbreakers, and ranking compatibility.
-
-- Independent agent contexts — neither side sees the other's private dossier
-- Structured outputs via Zod schemas, not parsed prose
-- Two-stage matching (N-squared cheap swipes, N*K expensive dates) keeps cost linear-ish
-- Live SSE streaming: watch everything happen in real-time
-
-`Node.js` `Express` `Claude API` `Apify` `Zod` `SSE`
-
-[Live Demo](https://proxy-dating.onrender.com) | [26 agents, 52 dates](https://proxy-dating.onrender.com/#/rankings)
+`Python` `Shell`
 
 </td>
 <td width="50%" valign="top">
 
-#### [Entity Resolution at Scale](https://github.com/princechoudhary16/amazon-ml-challenge-2026-entity-resolution) — Amazon ML Challenge 2026
-
-Linking 12.5M noisy business records across three countries and eight Indic scripts with no shared identifiers. **Top-500** qualifier.
-
-- Learned Indic-to-Latin transliteration from training pairs (recall: 86% to 98.5%)
-- Feature-hashed TF-IDF blocking: 10M+ comparisons down to ~13 candidates/entity
-- Runs on a single 10-core / 16GB laptop — no GPU, no external data
-- Macro F0.5: **0.9777** (out-of-fold) / **0.968** (leaderboard)
-
-`Python` `LightGBM` `scikit-learn` `pytest` `GitHub Actions`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [AutoDiagnoseAI](https://github.com/princechoudhary16/AutoDiagnoseAI) — Multimodal Vehicle Diagnostics
-
-AI copilot that diagnoses vehicle faults using photos, service history, and technical manuals. Combines vision, RAG, and structured reasoning into a single diagnostic pipeline.
-
-`Vue.js` `TypeScript` `Python` `AWS Bedrock` `Qdrant` `SQLite`
-
-</td>
-<td width="50%" valign="top">
-
-#### [TikTok CodeJam — Agent Launchpad](https://github.com/princechoudhary16/Tiktok_CodeJam_Hack_Track1) — Self-Healing Agent Middleware
-
-Middleware that observes agent executions, classifies failures (transient infra, bad inputs, hallucinations), and performs automated recovery — retry, environment reset, prompt sanitization, model fallback.
-
-`TypeScript` `Node.js` `Docker` `OpenTelemetry`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [AgentReroute](https://github.com/princechoudhary16/AgentReroute) — Causal Recovery for Multi-Agent Workflows
-
-Identifies the root cause of failures in multi-agent workflows and selectively re-executes only the affected agents instead of restarting the entire pipeline. Beats published AgentRx baselines on both tau and magentic benchmarks.
-
-- Fault attribution via structured evidence outperforms linear ranker (McNemar p = 0.02)
-- Typed, verifiable repair plans with budget-aware recovery orchestration
-- Deterministic pre-execution tool enforcement and generic tool middleware
-- Full benchmark suite with gold labels — reproducible with no API key
+#### [AgentReroute](https://github.com/princechoudhary16/AgentReroute)
+A causal recovery framework for multi-agent workflows that identifies the root cause of failures and selectively re-executes only the affected agents instead of restarting the entire workflow.
 
 `Python`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-#### [BotVerse](https://github.com/princechoudhary16/BotVerse) — Multi-Domain RAG Chatbot
+#### [proxy-dating](https://github.com/princechoudhary16/proxy-dating)
+Multi-agent AI dating system — agents read profiles, date each other, and rank compatibility
 
-RAG chatbot using LangChain, Gemini, FAISS, and one-shot MRKL agents across multiple knowledge domains.
+`JavaScript` `CSS` `HTML`
 
-`Python` `LangChain` `Gemini` `FAISS`
+[Live Demo →](https://proxy-dating.onrender.com)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Tiktok_CodeJam_Hack_Track1](https://github.com/princechoudhary16/Tiktok_CodeJam_Hack_Track1)
+Self-healing middleware for agent workflows — failure classification and automated recovery
+
+`TypeScript` `CSS` `Shell` `HCL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [AutoDiagnoseAI](https://github.com/princechoudhary16/AutoDiagnoseAI)
+Multimodal AI copilot for vehicle fault diagnosis — AWS Bedrock, RAG, vision, and service history
+
+`Vue` `TypeScript` `Python` `CSS`
+
+</td>
+<td width="50%" valign="top">
+
+#### [veritas](https://github.com/princechoudhary16/veritas)
+Veritas — a self-verifying generative agent: generate with Meta's models, then adversarially cross-check every artifact in a closed loop (SAM 3.1 grounding + vision consistency) until it provably passes. Meta Global AI Developer Hackathon.
+
+`Python`
 
 </td>
 </tr>

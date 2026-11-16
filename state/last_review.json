@@ -1,14 +1,14 @@
 {
-  "last_review_timestamp": "2026-11-01T14:53:46Z",
-  "last_update_timestamp": null,
+  "last_review_timestamp": "2026-11-16T18:15:46Z",
+  "last_update_timestamp": "2026-11-16T18:15:46Z",
   "last_review_success": true,
   "featured_repos": [
+    "amazon-ml-challenge-2026-entity-resolution",
+    "AgentReroute",
     "proxy-dating",
     "Tiktok_CodeJam_Hack_Track1",
-    "amazon-ml-challenge-2026-entity-resolution",
     "AutoDiagnoseAI",
-    "BotVerse",
-    "AgentReroute"
+    "veritas"
   ],
   "repo_snapshots": {
     "BotVerse": {
@@ -18,7 +18,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 10865,
-      "language_count": 1
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 2,
+        "tech_sophistication": 4,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 14,
+        "list_item_count": 9,
+        "code_block_count": 3,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 12
+      }
     },
     "RSA_Algoo": {
       "latest_commit_sha": "34ecf43545dc83ab18af27f1aacd53ae9bec232b",
@@ -27,7 +53,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 24481,
-      "language_count": 1
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 3,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 1,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 5
+      }
     },
     "Social-Distancing-Detector": {
       "latest_commit_sha": "21bfff138d287fb57b823fe0514ea4089f7b965f",
@@ -36,7 +88,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 675,
-      "language_count": 1
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 1,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 1,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 2
+      }
     },
     "DSA": {
       "latest_commit_sha": "30e10373dfc69cb20170e62016886dc71650229f",
@@ -45,7 +123,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 48963,
-      "language_count": 1
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 1,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 1,
+        "dir_count": 27,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 42
+      }
     },
     "Image-Recognition-using-AWS-Services": {
       "latest_commit_sha": "fb7d84dd1b13b83a5a1b3fff5d3e85aec84ed80a",
@@ -54,7 +158,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 4343,
-      "language_count": 2
+      "language_count": 2,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 1,
+        "tech_sophistication": 2,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 5,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 1,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 9
+      }
     },
     "Four-Factor-Authentication": {
       "latest_commit_sha": "366f021f8f4a8ac87e808cf4f36c9497b4c2b4c1",
@@ -63,7 +193,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 1984325,
-      "language_count": 3
+      "language_count": 3,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 1,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 6,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 3,
+        "dir_count": 8,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 48
+      }
     },
     "AutoDiagnoseAI": {
       "latest_commit_sha": "50138a3d748806578f6b73660172bb819165b700",
@@ -72,7 +228,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 184988,
-      "language_count": 5
+      "language_count": 5,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 3,
+        "tech_sophistication": 4,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 19,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 4,
+        "dir_count": 19,
+        "config_variety": 4,
+        "has_src_structure": true,
+        "has_test_dir": true,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 77
+      }
     },
     "Tiktok_CodeJam_Hack_Track1": {
       "latest_commit_sha": "87bcbd617fba30a14ad4ac3c80327e52f127c110",
@@ -81,7 +263,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 163283,
-      "language_count": 6
+      "language_count": 6,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": true,
+        "architecture_depth": 3,
+        "tech_sophistication": 8,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 17,
+        "list_item_count": 32,
+        "code_block_count": 5,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 4,
+        "dir_count": 12,
+        "config_variety": 5,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": true,
+        "has_ci_dir": false,
+        "total_files": 81
+      }
     },
     "proxy-dating": {
       "latest_commit_sha": "368ca381560ae9d245c80b1cdfd1da2072887d59",
@@ -90,7 +298,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 117945,
-      "language_count": 3
+      "language_count": 3,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": true,
+        "architecture_depth": 3,
+        "tech_sophistication": 5,
+        "has_live_demo": true,
+        "has_scale_numbers": false,
+        "has_images": true,
+        "section_count": 7,
+        "list_item_count": 11,
+        "code_block_count": 2,
+        "has_table": true
+      },
+      "structure": {
+        "max_depth": 2,
+        "dir_count": 7,
+        "config_variety": 1,
+        "has_src_structure": true,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 32
+      }
     },
     "amazon-ml-challenge-2026-entity-resolution": {
       "latest_commit_sha": "a82b0ff6a31c2dcc4dbe473ef5b05aa9de71615f",
@@ -99,16 +333,68 @@
       "has_ci": true,
       "release_count": 0,
       "total_code_bytes": 72736,
-      "language_count": 2
+      "language_count": 2,
+      "readme_signals": {
+        "has_metrics": true,
+        "metric_count": 2,
+        "has_quality_comparison": true,
+        "quality_comparison_count": 2,
+        "has_competition": true,
+        "architecture_depth": 4,
+        "tech_sophistication": 4,
+        "has_live_demo": false,
+        "has_scale_numbers": true,
+        "has_images": true,
+        "section_count": 13,
+        "list_item_count": 5,
+        "code_block_count": 8,
+        "has_table": true
+      },
+      "structure": {
+        "max_depth": 2,
+        "dir_count": 7,
+        "config_variety": 2,
+        "has_src_structure": true,
+        "has_test_dir": true,
+        "has_docs_dir": true,
+        "has_ci_dir": true,
+        "total_files": 24
+      }
     },
     "AgentReroute": {
-      "latest_commit_sha": "58144e96b94a20764c1001dd422309082e93e8c8",
+      "latest_commit_sha": "2c67b547adfb159b4955fc4984975e67586474c3",
       "readme_length": 8319,
       "has_tests": true,
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 1443216,
-      "language_count": 1
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": true,
+        "metric_count": 1,
+        "has_quality_comparison": true,
+        "quality_comparison_count": 4,
+        "has_competition": false,
+        "architecture_depth": 5,
+        "tech_sophistication": 6,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 14,
+        "list_item_count": 9,
+        "code_block_count": 15,
+        "has_table": true
+      },
+      "structure": {
+        "max_depth": 9,
+        "dir_count": 1129,
+        "config_variety": 1,
+        "has_src_structure": false,
+        "has_test_dir": true,
+        "has_docs_dir": true,
+        "has_ci_dir": false,
+        "total_files": 8607
+      }
     },
     "AiTestProject": {
       "latest_commit_sha": "e3d11ee4620547e2a59fcf1c842a9144ae5481dc",
@@ -117,7 +403,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 0,
-      "language_count": 0
+      "language_count": 0,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 0,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 1
+      }
     },
     "QuickSell": {
       "latest_commit_sha": "1d018bc89d1aba3c1a6ce260eb1547113cede57a",
@@ -126,7 +438,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 11438,
-      "language_count": 3
+      "language_count": 3,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": true,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 6,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 3,
+        "dir_count": 6,
+        "config_variety": 1,
+        "has_src_structure": true,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 27
+      }
     },
     "RSA_Encryption": {
       "latest_commit_sha": "",
@@ -135,7 +473,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 0,
-      "language_count": 0
+      "language_count": 0,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 0,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 0
+      }
     },
     "lambda-refarch-imagerecognition": {
       "latest_commit_sha": "856a02a2c036a2e9f8222da10b1d79c45d5c5ed4",
@@ -144,7 +508,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 24956,
-      "language_count": 6
+      "language_count": 6,
+      "readme_signals": {
+        "has_metrics": true,
+        "metric_count": 1,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 4,
+        "tech_sophistication": 2,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": true,
+        "section_count": 6,
+        "list_item_count": 19,
+        "code_block_count": 1,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 5,
+        "dir_count": 32,
+        "config_variety": 2,
+        "has_src_structure": true,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": true,
+        "total_files": 177
+      }
     },
     "Your_Store": {
       "latest_commit_sha": "2005e5486ea127dd7c8c9fa91d5fca05c6fac6d6",
@@ -153,7 +543,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 384360,
-      "language_count": 3
+      "language_count": 3,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": true,
+        "architecture_depth": 0,
+        "tech_sophistication": 3,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 1,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 5,
+        "dir_count": 18,
+        "config_variety": 1,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 103
+      }
     },
     "Personal_Website": {
       "latest_commit_sha": "9bdc162cca8f5f9969587e6111d13f1081130540",
@@ -162,7 +578,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 0,
-      "language_count": 0
+      "language_count": 0,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 1,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 0,
+        "dir_count": 0,
+        "config_variety": 0,
+        "has_src_structure": false,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 4
+      }
     },
     "plant_being": {
       "latest_commit_sha": "fbc1527accac2f1d307e3a45dd07a70d679f84cd",
@@ -171,7 +613,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 88064,
-      "language_count": 7
+      "language_count": 7,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 0,
+        "tech_sophistication": 0,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 7,
+        "list_item_count": 0,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 9,
+        "dir_count": 57,
+        "config_variety": 1,
+        "has_src_structure": true,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": false,
+        "total_files": 120
+      }
     },
     "k-NN": {
       "latest_commit_sha": "8859ed5f2b4ca6422c930d6b018bbd5b62b27407",
@@ -180,7 +648,33 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 10274780,
-      "language_count": 6
+      "language_count": 6,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": false,
+        "architecture_depth": 1,
+        "tech_sophistication": 1,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": true,
+        "section_count": 7,
+        "list_item_count": 16,
+        "code_block_count": 0,
+        "has_table": false
+      },
+      "structure": {
+        "max_depth": 11,
+        "dir_count": 333,
+        "config_variety": 0,
+        "has_src_structure": true,
+        "has_test_dir": false,
+        "has_docs_dir": false,
+        "has_ci_dir": true,
+        "total_files": 1340
+      }
     },
     "accord": {
       "latest_commit_sha": "0df945f9b4215bdd98ea3f60dc3ff09b8612455d",
@@ -189,7 +683,68 @@
       "has_ci": false,
       "release_count": 0,
       "total_code_bytes": 1007551,
-      "language_count": 3
+      "language_count": 3,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": true,
+        "quality_comparison_count": 1,
+        "has_competition": true,
+        "architecture_depth": 2,
+        "tech_sophistication": 8,
+        "has_live_demo": true,
+        "has_scale_numbers": false,
+        "has_images": false,
+        "section_count": 37,
+        "list_item_count": 31,
+        "code_block_count": 15,
+        "has_table": true
+      },
+      "structure": {
+        "max_depth": 7,
+        "dir_count": 155,
+        "config_variety": 4,
+        "has_src_structure": false,
+        "has_test_dir": true,
+        "has_docs_dir": true,
+        "has_ci_dir": false,
+        "total_files": 443
+      }
+    },
+    "veritas": {
+      "latest_commit_sha": "9561c018d9895f5793cc784674416ce05c71e1ab",
+      "readme_length": 11594,
+      "has_tests": true,
+      "has_ci": true,
+      "release_count": 0,
+      "total_code_bytes": 100050,
+      "language_count": 1,
+      "readme_signals": {
+        "has_metrics": false,
+        "metric_count": 0,
+        "has_quality_comparison": false,
+        "quality_comparison_count": 0,
+        "has_competition": true,
+        "architecture_depth": 2,
+        "tech_sophistication": 7,
+        "has_live_demo": false,
+        "has_scale_numbers": false,
+        "has_images": true,
+        "section_count": 17,
+        "list_item_count": 7,
+        "code_block_count": 9,
+        "has_table": true
+      },
+      "structure": {
+        "max_depth": 2,
+        "dir_count": 7,
+        "config_variety": 1,
+        "has_src_structure": false,
+        "has_test_dir": true,
+        "has_docs_dir": true,
+        "has_ci_dir": true,
+        "total_files": 42
+      }
     }
   },
   "review_history": [
@@ -221,6 +776,21 @@
       ],
       "top_scores": {},
       "changes_applied": false,
+      "errors": []
+    },
+    {
+      "timestamp": "2026-11-16T18:15:46Z",
+      "repos_examined": 22,
+      "featured": [
+        "amazon-ml-challenge-2026-entity-resolution",
+        "AgentReroute",
+        "proxy-dating",
+        "Tiktok_CodeJam_Hack_Track1",
+        "AutoDiagnoseAI",
+        "veritas"
+      ],
+      "top_scores": {},
+      "changes_applied": true,
       "errors": []
     }
   ]
